@@ -1,7 +1,9 @@
+import PreferencesTab from "@/components/PreferencesTab";
+
 export default function Home() {
   return (
     <main className="flex h-screen flex-col items-center justify-center p-4 md:px-24 py-32 gap-4">
-      {/* <PreferencesTab/> */}
+      <PreferencesTab />
 
       <div
         className="absolute top-0 z-[-2] h-screen w-screen dark:bg-[#000000] dark:bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] 
